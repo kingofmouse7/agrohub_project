@@ -1,4 +1,5 @@
-﻿# Node modules (все возможные варианты)
+﻿@"
+# Node modules (все возможные варианты)
 node_modules/
 frontend/node_modules/
 /frontend/node_modules/
@@ -19,3 +20,4 @@ media/
 .vscode/
 .idea/
 .DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding utf8
